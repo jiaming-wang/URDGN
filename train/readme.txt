@@ -1,0 +1,1 @@
+the path of HR image
