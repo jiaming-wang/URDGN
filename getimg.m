@@ -1,4 +1,4 @@
-strh = strcat('YTC_example_v1_723.png'); %% the test image obtained from the last epoch
+strh = strcat('./logs/YTC_example_v1_723.png'); %% the test image obtained from the last epoch
 im = imread(strh);
 im_l1 = im2double(im);
 for i =1:4
