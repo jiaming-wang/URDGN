@@ -22,7 +22,7 @@ adversarial = require 'adverserial_xin_v1_D'
 ----------------------------------------------------------------------
 -- parse command-line options
 opt = lapp[[
-  -s,--save          (default "logs512_lfw64")      subdirectory to save logs
+  -s,--save          (default "logs")      subdirectory to save logs
   --saveFreq         (default 1)          save every saveFreq epochs
   -n,--network       (default "")          reload pretrained network
   -p,--plot                                plot while training
