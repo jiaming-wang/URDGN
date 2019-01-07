@@ -21,7 +21,7 @@ def load_ytc_datasets(size):
     imgs = np.zeros((Num_img,3,size,size),dtype=np.float32)
     count = 0
     for i in range(1,Num_img+1):
-        filename = r'./train/' + str(i) + '.png' ## input HR image path
+        filename = r'./datasets/' + str(i) + '.png' ## input HR image path
         img = cv.imread(filename)
         # print (filename)
         # img = np.array(Image.open(filepath))
