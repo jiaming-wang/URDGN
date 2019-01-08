@@ -9,7 +9,8 @@ The source code is provided by https://github.com/XinYuANU/URDGN. Thanks for the
 ### 1. move all images (train and test) to a folder and creat h5
 ### python create_YTC_xin.py
 ### When you want to use your dataset, try to modify the code as follows.
-#52 x = create_YTC(pathfolder, 18) the size of low-resolution images <br><br>#61 x = create_YTC(pathfolder, 144) the size of high-resolution images <br><br>
+#52 x = create_YTC(pathfolder, 18) the size of low-resolution images <br><br>
+#61 x = create_YTC(pathfolder, 144) the size of high-resolution images <br><br>
   
 ### 2.train URDGN
 ### th train_ytc_xin_128_D.lua
@@ -26,8 +27,9 @@ just change the code of train_ytc_xin_128_D.lua <br><br>
 #239 IDX = torch.randperm(1600) the num of train images <br><br>
 
 just change the code of adverserial_xin_v1_D.lua <br><br>
-#243 local sample = torch.Tensor(dataBatchSize, 3, 18, 18) <br><br>
-#348 local inputs_lr = torch.Tensor(opt.batchSize, 3, 18, 18) <br><br>
+#135 local LR_inputs = torch.Tensor(opt.batchSize, 3, 18, 18)  the size of low-resolution images <br><br>
+#243 local sample = torch.Tensor(dataBatchSize, 3, 18, 18)  the size of low-resolution images <br><br>
+#348 local inputs_lr = torch.Tensor(opt.batchSize, 3, 18, 18)  the size of low-resolution images <br><br>
 
 
 ### 3.This code can split the result and save them as images.
