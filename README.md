@@ -4,7 +4,7 @@ ECCV 2016 face hallucination  <br><br>
 
 Run this code with more than 8G of GPU
 -------   
-The source code is provided by https://github.com/XinYuANU/URDGN. Thanks for their work
+The source code is provided by https://github.com/XinYuANU/URDGN. Thanks for their works.
 -------  
 ### 1. move all images (train and test) to a folder and creat h5
 ### python create_YTC_xin.py
