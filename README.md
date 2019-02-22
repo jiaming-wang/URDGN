@@ -38,7 +38,7 @@ just change the code of adverserial_xin_v1_D.lua <br><br>
 
 
 
-<br\>
+<br/>
 ```
 @inproceedings{Xin2016Ultra,
   title={Ultra-Resolving Face Images by Discriminative Generative Networks},
