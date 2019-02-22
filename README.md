@@ -35,3 +35,15 @@ just change the code of adverserial_xin_v1_D.lua <br><br>
 ### 3.This code can split the result and save them as images.
 ### run getimg.m
 
+
+
+
+If you find this work useful, please consider citing it.
+```
+@inproceedings{Xin2016Ultra,
+  title={Ultra-Resolving Face Images by Discriminative Generative Networks},
+  author={Xin, Yu and Porikli, Fatih},
+  booktitle={European Conference on Computer Vision},
+  year={2016},
+}
+```
