@@ -5,6 +5,15 @@ ECCV 2016 face hallucination  <br><br>
 Run this code with more than 8G of GPU
 -------   
 The source code is provided by https://github.com/XinYuANU/URDGN. Thanks for their works.
+
+```
+@inproceedings{Xin2016Ultra,
+  title={Ultra-Resolving Face Images by Discriminative Generative Networks},
+  author={Xin, Yu and Porikli, Fatih},
+  booktitle={European Conference on Computer Vision},
+  year={2016},
+}
+```
 -------  
 ### 1. move all images (train and test) to a folder and creat h5
 ### python create_YTC_xin.py
@@ -39,11 +48,3 @@ just change the code of adverserial_xin_v1_D.lua <br><br>
 
 
 
-```
-@inproceedings{Xin2016Ultra,
-  title={Ultra-Resolving Face Images by Discriminative Generative Networks},
-  author={Xin, Yu and Porikli, Fatih},
-  booktitle={European Conference on Computer Vision},
-  year={2016},
-}
-```
