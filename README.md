@@ -15,7 +15,7 @@ The source code is provided by https://github.com/XinYuANU/URDGN. Thanks for the
 }
 ```
 -------  
-### 1. move all images (train and test) to a folder and creat h5
+### 1. move all images (train and test) to a folder and creat.h5
 ### python create_YTC_xin.py
 ### If you want to use your datasets, try to modify the code as follows.
 #52 x = create_YTC(pathfolder, 18) the size of low-resolution images <br><br>
