@@ -3,8 +3,8 @@ im = imread(strh);
 im_l1 = im2double(im);
 for i =1:4
     for j = 1:10
-        img = im_l1((i-1)*144+1:i*144,(j-1)*144+1:j*144,:);
+        img = im_l1((i-1)*144+1:i*144,(j-1)*144+1:j*144,:); %% the test images are 144*144 pixels
         strh1 = strcat('./sr\',num2str((i-1)*10+j),'.png');
-        imwrite(uint8(img*255 ),strh1,'png');
+        imwrite(uint8(img*255),strh1,'png');
     end
 end
