@@ -1,5 +1,4 @@
-# URDGN
-Ultra-resolving face images by discriminative generative networks  <br><br>
+# Ultra-resolving face images by discriminative generative networks (URDGN)  <br><br>
 ECCV 2016 face hallucination  <br><br>
 
 Run this code with more than 8G of GPU
