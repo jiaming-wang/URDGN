@@ -15,7 +15,7 @@ The source code is provided by https://github.com/XinYuANU/URDGN. Thanks for the
 }
 ```
 -------  
-### 1. move all images (train and test) to "datasets" and creat .h5 file
+### 1. move all images (train and test) to folder datasets and creat .h5 file
 ### python create_YTC_xin.py
 ### If you want to use your datasets, try to modify the code as follows.
 #52 x = create_YTC(pathfolder, 18) the size of low-resolution images <br><br>
@@ -41,7 +41,7 @@ just change the code of adverserial_xin_v1_D.lua <br><br>
 #348 local inputs_lr = torch.Tensor(opt.batchSize, 3, 18, 18)  the size of low-resolution images <br><br>
 
 
-### 3.This code can split the result and save them as images in "sr".
+### 3.This code can split the result and save them as images in folder sr
 ### run getimg.m
 
 
